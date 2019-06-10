@@ -1,0 +1,35 @@
+.cardsSection {
+  color: #544673;
+  text-align: center;
+  background: url('../img/interlaced.png');
+  background-position: center center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+
+.cardsSection h1, .cardsSection p, .cardsSection h2 {
+  color: #fff;
+}
+
+.cards {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.cardWrapper {
+  height: 100%;
+  background-color: rgba(234, 228, 242,0.55);
+  padding: 1rem;
+}
+
+@media (max-width: 1024px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 425px) {
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

@@ -1,0 +1,35 @@
+.card {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+
+  justify-items: center;
+  align-items: center;
+
+  justify-self: center;
+  align-self: flex-start;
+
+  text-align: center;
+
+  grid-auto-flow: row;
+
+  /* grid-gap: 1rem; */
+
+  color: #111;
+}
+.card .cardIcon {
+  width: auto;
+  height: 120px;
+}
+.card .cardDetails {
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.card .cardDetails .cardLine {
+  border-width: 0px;
+  height: 5px;
+  width: 80%;
+  background: #03A688;
+  margin: 0 auto;
+}

@@ -1,0 +1,17 @@
+.igniteSection {
+  background-color: #21529E;
+}
+.igniteSection .igniteCards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+}
+.igniteCards .card .cardIcon {
+  display: none;
+}
+
+@media (max-width: 425px) {
+  .igniteSection .igniteCards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

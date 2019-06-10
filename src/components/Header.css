@@ -1,0 +1,46 @@
+h1 {
+  color: white;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+  background: transparent;
+  padding: 2rem 5rem;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navLeft {
+  height: 5rem;
+  width: auto;
+  margin-right: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navRight {
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+.navRight > a:not(:last-child) {
+  padding-right: 1rem;
+}
+
+.logo {
+  width: 96px;
+  height: auto;
+}
+
+@media (max-width: 425px) {
+  header {
+    padding: 1rem 2rem;
+  }
+}
