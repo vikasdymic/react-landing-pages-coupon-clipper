@@ -11,7 +11,7 @@ class CaseStudy extends Component {
             <div className='caseStudyImage  caseOne' />
             <a
               className='caseStudyLink'
-              href='https://thesulfurgroup.com/portfolio/too-faced-cosmetics/'
+              href=''
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -22,7 +22,7 @@ class CaseStudy extends Component {
             <div className='caseStudyImage  caseTwo' />
             <a
               className='caseStudyLink'
-              href='https://thesulfurgroup.com/portfolio/neutrogena-influencer-campaign/'
+              href=''
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -33,7 +33,7 @@ class CaseStudy extends Component {
             <div className='caseStudyImage  caseThree' />
             <a
               className='caseStudyLink'
-              href='https://thesulfurgroup.com/portfolio/bh-cosmetics/'
+              href=''
               target='_blank'
               rel='noopener noreferrer'
             >
