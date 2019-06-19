@@ -7,11 +7,13 @@ import CaseStudy from './CaseStudy';
 import Partner from './Partner';
 import Ignite from './Ignite';
 import Footer from './Footer';
+import Modal from './Modal';
 
 class App extends Component {
   render() {
     return (
       <div className='App'>
+        <Modal />
         <Header />
         <Hero />
         <CaseStudy />
