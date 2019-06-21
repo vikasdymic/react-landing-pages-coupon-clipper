@@ -13,7 +13,7 @@ class Modal extends Component {
                 <div id='modal'>
                     <h2>Coming Soon!</h2>
                     <p>Thank you for expressing your interest in {this.props.children}! We are putting the finishing touches on {this.props.children} and you'll be the first to know when it's done.</p>
-                    <form name="email" method="POST" data-netlify="true">
+                    <form name="email" method="POST" action="/" data-netlify="true">
                         <input className="input" type="email" placeholder="email"/>
                         <input className="button small" type="submit" value="Submit" required/>
                     </form>                    
